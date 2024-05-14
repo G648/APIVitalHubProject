@@ -67,12 +67,12 @@ namespace WebAPI.Controllers
                 consulta.PacienteId = consultaViewModel.PacienteId;
                 consulta.MedicoClinicaId = consultaViewModel.MedicoClinicaId;
 
-                consulta.Receita = new Receita();
+                // consulta.Receita = new Receita();
 
                 consulta.PrioridadeId = consultaViewModel.PrioridadeId;
                 consulta.DataConsulta = consultaViewModel.DataConsulta;
-                consulta.Descricao = consultaViewModel.Descricao;
-                consulta.Diagnostico = consultaViewModel.Diagnostico;
+                // consulta.Descricao = consultaViewModel.Descricao;
+                // consulta.Diagnostico = consultaViewModel.Diagnostico;
 
                 consultaRepository.Cadastrar(consulta);
 

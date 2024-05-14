@@ -18,6 +18,7 @@ namespace WebAPI.Repositories
             {
                 return ctx.Consultas
                     .Include(x => x.Exames)
+                    .Include(x => x.MedicoClinica)
                     .Include(x => x.MedicoClinica!.Medico!.Especialidade)
                     .Include(x => x.MedicoClinica!.Medico!.IdNavigation)
                     .Include(x => x.Paciente!.IdNavigation)

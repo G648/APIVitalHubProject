@@ -8,14 +8,14 @@
 
         public Guid? MedicoClinicaId { get; set; }
 
-        public Guid? ReceitaId { get; set; }
+        // public Guid? ReceitaId { get; set; }
 
         public Guid? PrioridadeId { get; set; }
 
         public DateTime? DataConsulta { get; set; }
 
-        public string? Descricao { get; set; }
+        // public string? Descricao { get; set; }
 
-        public string? Diagnostico { get; set; }
+        // public string? Diagnostico { get; set; }
     }
 }

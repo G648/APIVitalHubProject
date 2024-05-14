@@ -5,9 +5,9 @@ namespace WebAPI.Utils.OCR
 {
     public class OcrSettings
     {
-        private readonly string _subscriptionKey = "0ae2d29327374666bacfffcd1bdc0b79"; //pegar recurso do blob storage
+        private readonly string _subscriptionKey = "f0c2603936074b7fbd69dfc1745e67bb"; //pegar recurso do blob storage
 
-        private readonly string _endpoint = "https://vitalhubvision.cognitiveservices.azure.com/"; //URL do enpoint criado no blob storage
+        private readonly string _endpoint = "https://cvvitalhubg16m.cognitiveservices.azure.com/"; //URL do enpoint criado no blob storage
 
         public async Task<string> RecognizeTextAsync(Stream imageStream)
         {
