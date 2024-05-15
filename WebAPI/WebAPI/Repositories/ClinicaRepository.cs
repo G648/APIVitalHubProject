@@ -15,7 +15,8 @@ namespace WebAPI.Repositories
                 {
                     Id = id,
                     NomeFantasia = c.NomeFantasia,
-                    Endereco = c.Endereco
+                    Endereco = c.Endereco,
+                    MedicosClinicas = c.MedicosClinicas,
                 })
                 .FirstOrDefault(c => c.Id == id)!;
         }
